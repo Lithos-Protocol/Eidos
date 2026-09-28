@@ -1,0 +1,4 @@
+// Deliberately omits the reserve condition; see vulnerable_counterexample.
+{
+  sigmaProp(OUTPUTS(0).value <= SELF.value)
+}

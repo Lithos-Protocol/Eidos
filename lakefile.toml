@@ -1,0 +1,17 @@
+name = "eidos"
+version = "0.1.0"
+description = "A Lean library exploring formal verification of ErgoScript contracts"
+homepage = "https://github.com/Lithos-Protocol/Eidos"
+license = "CC0-1.0"
+licenseFiles = ["LICENSE"]
+defaultTargets = ["Eidos", "EidosTests"]
+
+[leanOptions]
+autoImplicit = false
+warningAsError = true
+
+[[lean_lib]]
+name = "Eidos"
+
+[[lean_lib]]
+name = "EidosTests"

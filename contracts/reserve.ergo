@@ -1,0 +1,8 @@
+// RESERVE is a compiler-supplied Long constant in nanoERGs.
+// This only constrains output zero's value. It does not authenticate a successor.
+{
+  sigmaProp(
+    OUTPUTS(0).value <= SELF.value &&
+    RESERVE <= OUTPUTS(0).value
+  )
+}
